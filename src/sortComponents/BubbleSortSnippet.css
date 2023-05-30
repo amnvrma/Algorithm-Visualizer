@@ -1,0 +1,23 @@
+.bubble-sort-snippet {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 200px;
+    overflow-y: auto;
+    cursor: move; /* Add cursor style for dragging */
+    transition: background-color 0.3s ease; /* Add smooth transition for highlighting */
+}
+
+.snippet-line {
+    font-family: monospace;
+    margin-bottom: 5px;
+    cursor: pointer; /* Add cursor style for mouse pointer */
+    transition: background-color 0.3s ease; /* Add smooth transition for highlighting */
+}
+
+.highlighted {
+    background-color: yellow;
+}
